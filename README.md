@@ -1,5 +1,14 @@
 # Gym Finder
 
+With Gym Finder you can find gyms in Campinas/SP.
+This project is made for Development Web Class.
+
+This project use:
+* [X] Javascript
+* [X] HTML
+* [X] CSS
+* [X] Leaflet maps
+ 
 ## Available Scripts
 
 In the project directory, you can run:
