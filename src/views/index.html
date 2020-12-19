@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <section class="gym__maps">
+        <h1 class="gym__section--title">Encontre todas as academias de Campinas</h1>
+        <div id="mapid"
+            class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom">
+        </div>
+    </section>
+    <section class="gym__search">
+        <h1 class="gym__section--title">Buscar academia</h1>
+        <input class="gym__search--input" type="text" name="search" id="search"
+            placeholder="Encontre uma academia pelo Nome, Rua, Bairro ou Cidade">
+        <button class="gym__search--btn" onclick="searchGym()">Buscar</button>
+        <div class="gym__search--list"></div>
+    </section>
+    <section class="gym__highlights">
+        <h1 class="gym__section--title">Academias em destaque</h1>
+        <div class="gym__highlights--imgs"></div>
+    </section>
+    <footer class="footer"></footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="/scripts/index.js"></script>
+    <script src="/scripts/components.js"></script>
+</body>
+
+</html>

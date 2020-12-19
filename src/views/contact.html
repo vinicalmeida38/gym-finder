@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <title>Fale conosco</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <fieldset class="contact">
+        <form class="contact-form" action="POST">
+            <h1>Fale Conosco</h1>
+            <label for="name">Nome</label>
+            <div>
+                <input class="contact-form--input" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <label for="email">E-mail</label>
+            <div>
+                <input class="contact-form--input" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+
+            <label for="comment">Comentário</label>
+            <div>
+                <textarea class="contact-form--textarea" name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <button class="contact-form--button" type="submit">Enviar</button>
+        </form>
+    </fieldset>
+    <footer class="footer"></footer>
+    <script src="/scripts/components.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.personal-data,
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.personal-data__img {
+  display: inline-block;
+  width: 400px;
+  border-radius: 10px;
+}
+.personal-data__content li a {
+  font-size: 20px;
+}
+
+.personal-data__content--more {
+  float: right;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+@media (max-width: 1000px) {
+  .personal-data__img {
+    width: 300px;
+  }
+
+  .about {
+    text-align: center;
+  }
+}
